@@ -1,0 +1,159 @@
+
+@media screen and (max-width: 1200px){
+    .footer-content-1 h1{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 912px){
+    /* ==========================
+        Moblie Mneu Style
+    ======================== */
+    .mobile-menu{
+        display: unset;
+    }
+    .nav-links{
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 79px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: black;
+        transition: all 0.8s ease;
+        z-index: 9999;
+    }
+    .menu-active{
+        left: 0;
+    }
+    .nav-links li{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        transition: all 0.5s ease;
+    }
+    .nav-links li a{
+        font-size: 24px;
+        font-weight: 700;
+        padding: 0;
+        display: block;
+    }
+    .front-content{
+        margin-bottom: 30px;
+    }
+    .footer-content-1 h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    /* ==========================
+        Hero Section
+    ======================== */
+    .hero-wrapper{
+        display: unset;
+    }
+    .front-image{
+        justify-content: center;
+    }
+    .front-content{
+        margin: 30px 0;
+        text-align: center;
+    }
+    .aobut-wrapper{
+        text-align: center;
+    }
+    .front-image img {
+        width: 60%;
+        height: auto;
+    }
+    .front-content p{
+        padding: 10px;
+    }    
+    /* ==========================
+        Info Section Style
+    ======================== */
+    .home-about{
+        padding: 50px 0;
+    }
+    .aobut-wrapper{
+        display:unset;
+        text-align: center;
+    }
+    .columns-1 p,
+    .columns-2 p,
+    .columns-3 p{
+        padding: 0 50px;
+        font-size: 16px;
+    }
+    /* ==========================
+        Recent Work Section Style
+    ======================== */
+    .work-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .recent-work{
+        padding: 50px 0;
+    }
+    /* ==========================
+        About Section Style
+    ======================== */
+    .about-section{
+        padding: 50px 0;
+    }
+    .about-image img{
+        width: 200px;
+    }
+    .about-img-1{
+        height: 250px !important;
+    }
+    .about-img-3{
+        height: 270px !important;
+    }
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer-content-2{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 578px){
+    .front-image img {
+        width: 60%;
+        height: auto;
+    }
+    /* ==========================
+        About Section Style
+    ======================== */
+    .about-image img{
+        width: 160px;
+    }
+    .about-img-1{
+        height: 200px !important;
+    }
+    .about-img-3{
+        height: 220px !important;
+    }
+}
+@media screen and (max-width: 478px){
+    /* ==========================
+        About Section Style
+    ======================== */
+    .about-image img{
+        width: 130px;
+    }
+    .about-img-1{
+        height: 150px !important;
+    }
+    .about-img-3{
+        height: 180px !important;
+    }
+}
